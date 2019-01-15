@@ -1,0 +1,28 @@
+{
+  "name": "next-is-empty-object",
+  "version": "0.0.1",
+  "description": "Check if is emptyObject for next",
+  "main": "dist/next-is-empty-object.js",
+  "authors": [
+    "afei"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "next"
+  ],
+  "homepage": "https://github.com/afeiship/next-is-empty-object",
+  "moduleType": [
+    "amd"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "src",
+    "gulp",
+    "gulpfile.js"
+  ]
+}
