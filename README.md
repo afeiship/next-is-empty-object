@@ -10,3 +10,10 @@ npm install -S afeiship/next-is-empty-object --registry=https://registry.npm.tao
 ```js
 //DOCS here!
 ```
+
+## other solution:
+```js
+function isEmptyObject(obj){
+  return Object.keys(obj).length === 0
+}
+```
