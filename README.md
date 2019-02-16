@@ -8,7 +8,11 @@ npm install -S afeiship/next-is-empty-object --registry=https://registry.npm.tao
 
 ## usage:
 ```js
-//DOCS here!
+import 'next-is-empty-object';
+const obj = {};
+
+nx.isEmptyObject(obj);
+// true;
 ```
 
 ## other solution:
@@ -17,3 +21,6 @@ function isEmptyObject(obj){
   return Object.keys(obj).length === 0
 }
 ```
+
+## resouces:
+- https://github.com/gummesson/is-empty-object
