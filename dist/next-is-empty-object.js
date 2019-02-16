@@ -6,7 +6,7 @@
   // object.keys() only return enumerable props
 
   nx.isEmptyObject = function(inObj) {
-    if (!inObj) return false;
+    if (inObj == null) return false;
     if (toString.call(inObj) === NATURE_OBJECT) {
       return !Object.keys(inObj).length;
     }
