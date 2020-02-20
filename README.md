@@ -1,26 +1,14 @@
 # next-is-empty-object
-> Check if is emptyObject for next
+> Check if is emptyObject for next.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-is-empty-object --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-is-empty-object
 ```
 
-## usage:
+## usage
 ```js
-import 'next-is-empty-object';
-const obj = {};
+import '@feizheng/next-is-empty-object';
 
-nx.isEmptyObject(obj);
-// true;
+//DOCS here!
 ```
-
-## other solution:
-```js
-function isEmptyObject(obj){
-  return Object.keys(obj).length === 0
-}
-```
-
-## resouces:
-- https://github.com/gummesson/is-empty-object
