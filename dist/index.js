@@ -1,19 +1,19 @@
 /*!
- * name: @feizheng/next-is-empty-object
+ * name: @jswork/next-is-empty-object
  * description: Check if is emptyObject for next.
- * url: https://github.com/afeiship/next-is-empty-object
+ * homepage: https://github.com/afeiship/next-is-empty-object
  * version: 1.0.0
- * date: 2020-02-20 16:46:10
+ * date: 2020-11-22 16:22:56
  * license: MIT
  */
 
-(function() {
+(function () {
   var global = global || this || window || Function('return this')();
-  var nx = global.nx || require('@feizheng/next-js-core2');
+  var nx = global.nx || require('@jswork/next');
   var toString = Object.prototype.toString;
   var NATURE_OBJECT = '[object Object]';
 
-  nx.isEmptyObject = function(inObj) {
+  nx.isEmptyObject = function (inObj) {
     if (inObj == null) return false;
     if (toString.call(inObj) === NATURE_OBJECT) {
       return !Object.keys(inObj).length;
@@ -25,5 +25,3 @@
     module.exports = nx.isEmptyObject;
   }
 })();
-
-//# sourceMappingURL=next-is-empty-object.js.map
