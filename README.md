@@ -15,7 +15,7 @@ npm install -S @jswork/next-is-empty-object
 ```js
 import '@jswork/next-is-empty-object';
 
-//DOCS here!
+nx.isEmptyObject(null);   // false
 ```
 
 ## license
