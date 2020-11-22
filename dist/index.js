@@ -3,7 +3,7 @@
  * description: Check if is emptyObject for next.
  * homepage: https://github.com/afeiship/next-is-empty-object
  * version: 1.0.0
- * date: 2020-11-22 16:22:56
+ * date: 2020-11-22 16:26:54
  * license: MIT
  */
 
