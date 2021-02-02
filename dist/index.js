@@ -2,8 +2,8 @@
  * name: @jswork/next-is-empty-object
  * description: Check if is emptyObject for next.
  * homepage: https://github.com/afeiship/next-is-empty-object
- * version: 1.0.0
- * date: 2021-02-02 18:51:55
+ * version: 1.0.1
+ * date: 2021-02-02 18:52:41
  * license: MIT
  */
 
