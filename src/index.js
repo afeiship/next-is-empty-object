@@ -1,18 +1,18 @@
-(function () {
-  var global = typeof window !== 'undefined' ? window : this || Function('return this')();
-  var nx = global.nx || require('@jswork/next');
-  var toString = Object.prototype.toString;
-  var NATURE_OBJECT = '[object Object]';
+import nx from '@jswork/next';
 
-  nx.isEmptyObject = function (inObj) {
-    if (inObj == null) return false;
-    if (toString.call(inObj) === NATURE_OBJECT) {
-      return !Object.keys(inObj).length;
-    }
-    return false;
-  };
+const toString = Object.prototype.toString;
+const NATURE_OBJECT = '[object Object]';
 
-  if (typeof module !== 'undefined' && module.exports) {
-    module.exports = nx.isEmptyObject;
+nx.isEmptyObject = function (inObj) {
+  if (inObj == null) return false;
+  if (toString.call(inObj) === NATURE_OBJECT) {
+    return !Object.keys(inObj).length;
   }
-})();
+  return false;
+};
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = nx.isEmptyObject;
+}
+
+export default nx.isEmptyObject;
