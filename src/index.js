@@ -11,8 +11,8 @@ nx.isEmptyObject = function (inObj) {
   return false;
 };
 
-if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
-  module.exports = nx.isEmptyObject;
-}
+// if (typeof module !== 'undefined' && module.exports && typeof wx === 'undefined') {
+//   module.exports = nx.isEmptyObject;
+// }
 
 export default nx.isEmptyObject;
